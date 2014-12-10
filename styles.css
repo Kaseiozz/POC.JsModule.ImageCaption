@@ -1,0 +1,40 @@
+﻿* { margin: 0;padding: 0;border: 0;}
+
+.hover-item,
+.hover-item-animate {
+    position: relative;
+    width: 200px;
+    background: antiquewhite;
+    overflow: hidden;
+    height: 200px;
+}
+
+.hover-item img,
+.hover-item-animate img {
+    width: 100%;
+}
+
+.hover-item > div,
+.hover-item-animate > div{
+    position: absolute;
+    width: 100%;
+    padding: 0.5em 0;
+    background: white;
+    bottom: -20%;
+    opacity: 0.6;
+    font-size: 1em;
+    text-align: center;
+}
+.hover-item > div.display,
+.hover-item-animate > div.display {
+    bottom: 0;
+}
+.hover-item > div > div,
+.hover-item-animate > div > div {
+    padding: 0.5em 0;
+}
+.hover-item .default {
+}
+.hover-item .onhover {
+    
+}
